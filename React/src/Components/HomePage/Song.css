@@ -1,0 +1,24 @@
+.song {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #222;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.song__name {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.song__genre, .song__releaseyear, .song__type, .song__type {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #ccc;
+    width: 100%;
+    text-align: center;
+}

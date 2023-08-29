@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.1);
+}
+
+.navbar__link {
+    color: #f9f9f9;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.navbar__link:hover {
+    color: #3e8e41;
+}

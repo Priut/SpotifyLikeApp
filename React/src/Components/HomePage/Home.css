@@ -1,0 +1,35 @@
+.home {
+    display: block;
+    height: 100vh;
+    background-color: #333;
+    color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home__header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.home__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.home__content {
+    position: relative;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #f9f9f9;
+    font-size: 14px;
+}
+
